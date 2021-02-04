@@ -1,7 +1,7 @@
 ## LQrssi
 Feb 2021
 
-![LQrssi logo](https://github.com/strgaltdel/3in1/img/LQrssi.png)
+![LQrssi logo](https://github.com/strgaltdel/LQrssi/img/LQrssi.png)
 
 
 ### Einführung
