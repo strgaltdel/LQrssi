@@ -27,7 +27,9 @@ Basierend auf der Arduino  Platform können RC Hobbyisten folgende Werte von Mod
   * SBUS Inverter
 
   Pinning:
+
   SBUS  >> Arduino Rx
+
   SPort >> Arduino Pin 4
 
 
