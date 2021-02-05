@@ -79,7 +79,7 @@ https://github.com/sofian/MovingAverage
 
 
 														// **********************  user customizing:
-#define SPORT_PIN 4									// Arduino SPort Pin
+#define SPORT_PIN 4										// Arduino SPort Pin
 #define channel_investigate 15							// which channel shall be evaluated
 // #define RX_PRIMARY									// remark if you want to monitor Sat Rx
 														// **********************  end of  customizing	
@@ -279,8 +279,9 @@ void ChannelCalc() {
 	else {
 		rssi_avg = avgRSSI.update((chVal[channel_investigate]*0.8)+98);											// scaling chVal < -60% (rssi<50)
 	}
+#ifndef RX_PRIMARY		
 	sensor_rssi.value =  (int)rssi_avg ;																		// new (SPORT) rssi value
-	
+#endif	
 
 	// all channels:
 	// (in case you want to examine other things....)
